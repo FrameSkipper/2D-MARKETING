@@ -1,0 +1,12 @@
+# Normalise line endings so Windows zip round-trips don't produce
+# whole-file CRLF diffs (this masked the real changes once already).
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
